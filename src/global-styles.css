@@ -1,0 +1,106 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Custom global styles */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+html {
+  /* ------- PRIMARY ------- */
+  --color-light-red: hsl(0deg, 100%, 67%);
+  --color-orangy-yellow: hsl(39deg, 100%, 56%);
+  --color-green-teal: hsl(166deg, 100%, 37%);
+  --color-cobolt-blue: hsl(234deg, 85%, 45%);
+  /* ------- GRADIENTS ------- */
+  --color-light-blue-gradient: linear-gradient(
+    180deg,
+    hsl(252deg, 100%, 67%) 0%,
+    hsl(241deg, 81%, 54%) 100%
+  );
+  --color-violet-blue-gradient: linear-gradient(
+    90deg,
+    hsla(256deg, 72%, 46%, 1) 0%,
+    hsla(241deg, 72%, 46%, 0) 100%
+  );
+  /* ------- NUETRAL ------- */
+  --color-white: hsl(0deg, 0%, 100%);
+  --color-pale-blue: hsl(221deg, 100%, 96%);
+  --color-light-lavender: hsl(241deg, 100%, 89%);
+  --color-dark-gray-blue: hsl(224deg, 30%, 27%);
+
+  /* ------- FONTS ------- */
+  font-family: 'Hanken Grotesk', sans-serif;
+  --font-weight-extra-bold: 800;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+
+  min-height: 100vh;
+  color-scheme: light;
+  display: grid;
+  place-content: center;
+  font-size: 18px;
+}
+
+body {
+  background: hsl(220deg, 100%, 96%);
+}
+
+h1 {
+  font-size: 1.778rem;
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: 1.333rem;
+  font-weight: var(--font-weight-bold);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: var(--font-weight-medium);
+}

@@ -1,0 +1,12 @@
+.result-container {
+  background: var(--color-light-blue-gradient);
+  color: var(--color-white);
+  border-radius: 1.778em;
+  padding: 2.444em 3.333em 3.333em;
+  text-align: center;
+}
+
+.result-container p,
+.result-container h2 {
+  color: var(--color-light-lavender);
+}

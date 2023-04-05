@@ -1,0 +1,12 @@
+.app-container {
+  display: grid;
+  background: var(--color-white);
+}
+
+@media (min-width: 610px) {
+  .app-container {
+    grid-template-columns: 1fr 1fr;
+    max-width: 40.889em;
+    border-radius: 1.778em;
+  }
+}
