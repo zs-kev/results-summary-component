@@ -4,9 +4,32 @@
   border-radius: 1.778em;
   padding: 2.444em 3.333em 3.333em;
   text-align: center;
+  display: grid;
+  align-content: space-between;
 }
 
 .result-container p,
 .result-container h2 {
   color: var(--color-light-lavender);
+}
+
+.score-circle {
+  height: 11.111em;
+  width: 11.111em;
+  margin: 0 auto;
+  background: var(--color-violet-blue-gradient);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.score-circle p:first-child {
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: var(--font-weight-extra-bold);
+  color: var(--color-white);
+}
+
+.score-circle p:last-child {
+  font-weight: var(--font-weight-bold);
 }

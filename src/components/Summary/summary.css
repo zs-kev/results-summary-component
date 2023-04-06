@@ -1,3 +1,6 @@
 .summary-container {
   padding: 2.444em 2.222em 2.556em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

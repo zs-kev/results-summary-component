@@ -1,6 +1,7 @@
 .app-container {
   display: grid;
   background: var(--color-white);
+  height: 28.444em;
 }
 
 @media (min-width: 610px) {

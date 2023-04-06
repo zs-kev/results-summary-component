@@ -9,9 +9,11 @@ function Summary({ results }) {
   return (
     <div className="summary-container">
       <h2>Summary</h2>
-      {results.map((result) => (
-        <SummaryList key={crypto.randomUUID()} result={result} />
-      ))}
+      <div>
+        {results.map((result) => (
+          <SummaryList key={crypto.randomUUID()} result={result} />
+        ))}
+      </div>
       <Button />
     </div>
   );

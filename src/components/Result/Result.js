@@ -6,7 +6,7 @@ function Result({ finalResult }) {
   return (
     <div className="result-container">
       <h2>Your Result</h2>
-      <div>
+      <div className="score-circle">
         <p>{finalResult}</p>
         <p>of 100</p>
       </div>

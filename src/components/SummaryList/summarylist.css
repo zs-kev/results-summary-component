@@ -1,0 +1,58 @@
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 0.667em;
+  margin-bottom: 0.667em;
+}
+
+.category:last-child {
+  margin-bottom: 0;
+}
+
+.category div {
+  display: flex;
+}
+
+.category img {
+  padding-right: 0.667em;
+}
+
+.category-score {
+  color: var(--color-dark-gray-blue);
+  font-weight: var(--font-weight-bold);
+}
+
+.category-score span {
+  opacity: 50%;
+}
+
+.Reaction div {
+  color: var(--color-light-red);
+}
+.Reaction {
+  background-color: hsl(0deg, 100%, 98%);
+}
+
+.Memory div {
+  color: var(--color-orangy-yellow);
+}
+.Memory {
+  background-color: hsl(38deg, 100%, 98%);
+}
+
+.Verbal div {
+  color: var(--color-green-teal);
+}
+.Verbal {
+  background-color: hsl(162deg, 62%, 97%);
+}
+
+.Visual div {
+  color: var(--color-cobolt-blue);
+}
+.Visual {
+  background-color: hsl(234deg, 71%, 97%);
+}

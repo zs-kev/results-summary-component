@@ -63,7 +63,7 @@ html {
     hsl(241deg, 81%, 54%) 100%
   );
   --color-violet-blue-gradient: linear-gradient(
-    90deg,
+    180deg,
     hsla(256deg, 72%, 46%, 1) 0%,
     hsla(241deg, 72%, 46%, 0) 100%
   );
