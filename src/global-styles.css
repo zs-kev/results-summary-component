@@ -89,9 +89,6 @@ html {
   }
 }
 
-body {
-  background: hsl(220deg, 100%, 96%);
-}
 @media (min-width: 640px) {
   body {
     display: grid;
