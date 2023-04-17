@@ -1,6 +1,13 @@
 .summary-container {
-  padding: 2.444em 2.222em 2.556em;
+  padding: 2em 2.222em 2.556em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+  .summary-container {
+    padding-top: 1.333em;
+    padding-bottom: 1.667em;
+  }
 }

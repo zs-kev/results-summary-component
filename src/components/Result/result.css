@@ -2,10 +2,17 @@
   background: var(--color-light-blue-gradient);
   color: var(--color-white);
   border-radius: 1.778em;
-  padding: 2.444em 3.333em 3.333em;
+  padding: 2em 3.333em 3.333em;
   text-align: center;
   display: grid;
   align-content: space-between;
+}
+
+@media (max-width: 640px) {
+  .result-container {
+    border-radius: 0 0 1.778em 1.778em;
+    padding-top: 1.667em;
+  }
 }
 
 .result-container p,

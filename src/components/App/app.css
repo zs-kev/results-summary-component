@@ -1,13 +1,15 @@
 .app-container {
   display: grid;
   background: var(--color-white);
-  height: 28.444em;
+  height: 100%;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 640px) {
   .app-container {
     grid-template-columns: 1fr 1fr;
     max-width: 40.889em;
     border-radius: 1.778em;
+    margin: 0 0.5em;
+    height: 30em;
   }
 }
